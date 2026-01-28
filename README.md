@@ -55,6 +55,4 @@ Each sentence is processed and reconstructed after cleaning.
 
 ---
 
-## 📈 Output Example
 
-Raw sentence:
