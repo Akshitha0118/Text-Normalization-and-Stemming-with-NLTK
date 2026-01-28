@@ -55,4 +55,7 @@ Each sentence is processed and reconstructed after cleaning.
 
 ---
 
+## 📌 Conclusion
 
+This project provides a clear understanding of how textual data is preprocessed before applying machine learning algorithms.  
+It serves as a foundational step for advanced NLP applications.
