@@ -1,6 +1,4 @@
 import nltk
-
-
 from nltk.stem import PorterStemmer
 from nltk.corpus import stopwords
 
@@ -16,12 +14,10 @@ paragraph = '''AI, machine learning and deep learning are common terms in enterp
                 learning, is based on our understanding of how the brain is structured. Deep learning's
                 use of artificial neural networks structure is the underpinning of recent advances in AI,
                 including self-driving cars and ChatGPT.'''
-                
-                
+                        
                 
 sentence = nltk.sent_tokenize(paragraph)
 stemmer=PorterStemmer()
-
 
 for i in range(len(sentence)):
     words=nltk.word_tokenize(sentence[i])
